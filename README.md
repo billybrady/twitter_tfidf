@@ -1,6 +1,14 @@
 Tf-idf analysis of politicians’ recent tweets
 ================
 
+Use the ‘tidytext’ package to analyze the most “important” words in U.S.
+politicians’ recent tweets. If you have not set up creditials to connect
+to Twitter’s API, view this
+[tutorial](https://rtweet.info/articles/auth.html). If you want to
+follow along without actually connecting to Twitter’s API you can
+download
+[“politician\_timelines\_10.27.19”](https://drive.google.com/file/d/1xF6fppwi8BGlnuWjEb54UzEj2kzNBZu-/view?usp=sharing).
+
 ## Setup
 
 ``` r
