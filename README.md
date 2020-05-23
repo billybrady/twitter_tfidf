@@ -76,7 +76,7 @@ ggplot(tweet_words, aes(n/total, fill = screen_name)) +
   geom_histogram(show.legend = FALSE) +
   xlim(NA, 0.0009) +
   facet_wrap(~screen_name, scales = "free_y") +
-  labs(x = "Count", y = "Term Frequency (N / Total)") + 
+  labs(x = "Term Frequency (N / Total)", y = "Count") + 
   theme_bw()
 ```
 
